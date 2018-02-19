@@ -1,0 +1,14 @@
+modules:
+  jmeter:
+    gui: false
+    properties:
+      perf.nUsers: 100
+      perf.duration: 30
+
+execution:
+   scenario:
+    script: demo.jmx
+settings:
+  artifacts-dir: taurus-results
+reporting:
+  - module: junit-xml

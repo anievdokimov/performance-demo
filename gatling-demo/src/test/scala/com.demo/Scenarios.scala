@@ -1,6 +1,6 @@
-package demo
+package com.demo
 
-import demo.Configuration.testDuration
+import com.demo.Configuration.testDuration
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
 

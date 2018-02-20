@@ -1,7 +1,7 @@
-package demo
+package com.demo
 
-import demo.Configuration.{httpProtocol, nUsers, rampUp}
-import demo.Scenarios.defaultScenario
+import com.demo.Configuration.{httpProtocol, nUsers, rampUp}
+import com.demo.Scenarios.defaultScenario
 import io.gatling.core.Predef._
 
 import scala.concurrent.duration._

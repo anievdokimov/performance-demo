@@ -1,4 +1,4 @@
-package demo
+package com.demo
 
 import io.gatling.http.Predef.http
 import io.gatling.core.Predef._
@@ -7,7 +7,7 @@ object Configuration {
 
   val nUsers: Int = Integer.getInteger("load.test.nUsers" , 10)
   val rampUp: Int = Integer.getInteger("load.test.rampUp.time" , 2)
-  val testDuration: Int = Integer.getInteger("load.test.duration" , 30)
+  val testDuration: Int = Integer.getInteger("load.test.duration" , 20)
   val scenarioBaseURL = "https://gatling.io"
 
   val defaultHeaders = Map("Accept" -> "text/html,application/xhtml+xml")
